@@ -30,10 +30,14 @@ function game.load()
   game.hitTotal   = 0
   game.hitRate    = 0
   
+  game.gamebg = imgs.gamebg
   --背景音乐
 end
 
 function game.draw()
+  
+  love.graphics.draw(game.gamebg,0,0,0,0.5,0.5)
+  
   local r,g,b = love.graphics.getColor()
   love.graphics.setColor(0,255,0)
   --显示分数

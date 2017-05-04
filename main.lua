@@ -3,7 +3,7 @@ require("game")
 
 function love.load()
   imgs_jpeg = {"bg"}
-  imgs_png = {"bullet","enemy","player","title","background"}
+  imgs_png = {"bullet","enemy","player","title","background","gamebg"}
   imgs = {}
   for _,v in ipairs(imgs_jpeg) do
     imgs[v] = love.graphics.newImage("assets/" .. v .. ".jpg")
