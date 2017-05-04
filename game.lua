@@ -35,6 +35,7 @@ function game.load()
 end
 
 function game.draw()
+  aaaaaa
   love.graphics.draw(game.gamebg,0,0,0,0.5,0.5)
   
   local r,g,b = love.graphics.getColor()
